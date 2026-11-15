@@ -2,7 +2,7 @@
 
 #If anything in the text isn't a letter, ignore it and don't return it.
 
-"a" = 1, "b" = 2, etc.
+#"a" = 1, "b" = 2, etc.
 def alphabet_position(text):
     code = ""
     positions = []
