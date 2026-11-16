@@ -3,4 +3,4 @@
 My solutions to Python coding challenges on [Codewars](https://codewars.com).
 
 ## Recommended snippets
-highestScore.py
+highestScore.py, love.py
