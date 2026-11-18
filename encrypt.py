@@ -21,8 +21,7 @@ def encrypt(text):
         return text
     if any(c not in Region for c in text):
         raise Exception("Unknown characters")
-    if not text:
-        return text
+
     
     lastDigs1 = "".join(c.swapcase() if i%2 == 0 else c for i, c in enumerate(text[1:])) #1
     lastDigs2 = "".join(Region[Region.index(text[0]) - Region.index(c)] if i == 0 else Region[Region.index(lastDigs1[i - 1]) - Region.index(c)] for i, c in enumerate(lastDigs1)) #2
