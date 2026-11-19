@@ -4,5 +4,5 @@ def descending_order(num):
     numOut = ""
     while numStr:
         numOut += str(max(numStr))
-        numStr = numStr.replace(max(numStr), "")
+        numStr = numStr.replace(max(numStr), "", 1)
     return int(numOut)
